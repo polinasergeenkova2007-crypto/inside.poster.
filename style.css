@@ -3157,6 +3157,10 @@ body {
     transform-origin: top left;
   }
 
+  .fire-5 {
+    transform: translateY(-100%);
+  }
+
   .fire-6 {
     display: none;
   }
