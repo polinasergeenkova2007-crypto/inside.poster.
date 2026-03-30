@@ -3655,7 +3655,7 @@ body {
     pointer-events: auto !important;
     background-image: url("images/tablet-bricks.png");
     background-repeat: no-repeat;
-    background-position: center -260px;
+    background-position: center -620px;
     background-size: 1500px auto;
     transform: translateX(-50%) scale(var(--screen2-scale)) !important;
     transform-origin: top center !important;
