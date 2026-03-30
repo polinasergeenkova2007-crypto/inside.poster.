@@ -3657,24 +3657,13 @@ body {
     overflow: visible !important;
     opacity: 1 !important;
     pointer-events: auto !important;
-    background-image: url("images/tablet-bricks.png");
-    background-repeat: no-repeat;
-    background-position: center -1340px;
-    background-size: 1500px auto;
+    background-image: none;
     transform: translateX(-50%) scale(var(--screen2-scale)) !important;
     transform-origin: top center !important;
   }
 
   .screen2-stage::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("images/tablet-bricks.png");
-    background-repeat: no-repeat;
-    background-position: center -1340px;
-    background-size: 1500px auto;
-    pointer-events: none;
-    z-index: 1500;
+    display: none;
   }
 
   .maze-group {
