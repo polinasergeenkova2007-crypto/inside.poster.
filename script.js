@@ -855,12 +855,12 @@ if (
   const startPosition = { x: 91, y: 4 };
   const moveStep = 2.2;
   const mazeFireHitboxes = [
-    { x: 65, y: 28, w: 4.5, h: 5.5 },
-    { x: 84, y: 49, w: 4.5, h: 5.5 },
-    { x: 74, y: 57, w: 4.5, h: 5.5 },
-    { x: 58, y: 76, w: 4.5, h: 5.5 },
-    { x: 68, y: 77, w: 4.5, h: 5.5 },
-    { x: 85, y: 90, w: 4.5, h: 5.5 },
+    { x: 66.2, y: 29.2, w: 2.2, h: 3.2 },
+    { x: 85.2, y: 50.2, w: 2.2, h: 3.2 },
+    { x: 75.2, y: 58.2, w: 2.2, h: 3.2 },
+    { x: 59.2, y: 77.2, w: 2.2, h: 3.2 },
+    { x: 69.2, y: 78.2, w: 2.2, h: 3.2 },
+    { x: 86.2, y: 91.2, w: 2.2, h: 3.2 },
   ];
   const mazeHeroSprites = {
     ArrowLeft: "images/maze-hero-left.png",
