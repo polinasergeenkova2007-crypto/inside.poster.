@@ -3877,6 +3877,13 @@ body {
     background: transparent !important;
   }
 
+  .match3-copy,
+  .road-runner-instructions,
+  .road-runner-ui {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
   .match3-tail-mask {
     display: none !important;
     background: transparent !important;
