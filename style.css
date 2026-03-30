@@ -3653,23 +3653,16 @@ body {
     overflow: visible !important;
     opacity: 1 !important;
     pointer-events: auto !important;
+    background-image: url("images/tablet-bricks.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1780px auto;
     transform: translateX(-50%) scale(var(--screen2-scale)) !important;
     transform-origin: top center !important;
   }
 
   .screen2-stage::before {
-    content: "";
-    position: absolute;
-    top: -2700px;
-    left: -240px;
-    width: 2620px;
-    height: 9800px;
-    background-image: url("images/кирпичиайпад.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 1780px auto;
-    pointer-events: none;
-    z-index: 1000;
+    content: none;
   }
 
   .maze-group {
