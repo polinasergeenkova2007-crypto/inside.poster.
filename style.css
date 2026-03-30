@@ -3662,7 +3662,15 @@ body {
   }
 
   .screen2-stage::before {
-    content: none;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("images/tablet-bricks.png");
+    background-repeat: no-repeat;
+    background-position: center -1340px;
+    background-size: 1500px auto;
+    pointer-events: none;
+    z-index: 1500;
   }
 
   .maze-group {
