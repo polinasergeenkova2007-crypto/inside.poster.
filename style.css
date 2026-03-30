@@ -3157,6 +3157,10 @@ body {
     transform-origin: top left;
   }
 
+  .fire-6 {
+    display: none;
+  }
+
   .maze-ui {
     top: -1100px;
     left: -40px;
